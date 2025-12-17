@@ -1857,7 +1857,6 @@ function generateDublinCore(item) {
 <meta name="DC.type" content="${escapeHTML(item.type || '')}">
 <meta name="DC.format" content="${escapeHTML(item.format || '')}">
 <meta name="DC.identifier" content="${escapeHTML(item.identifier || '')}">
-<meta name="DC.source" content="${escapeHTML(item.source || '')}">
 <meta name="DC.language" content="${escapeHTML(item.language || 'ar')}">
 <meta name="DC.rights" content="${escapeHTML(item.rights || '')}">`;
 }
